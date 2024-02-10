@@ -1,0 +1,12 @@
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\P2PAuction.csproj.AssemblyReference.cache
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\P2PAuction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\P2PAuction.AssemblyInfoInputs.cache
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\P2PAuction.AssemblyInfo.cs
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\P2PAuction.csproj.CoreCompileInputs.cache
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\bin\Debug\net7.0\P2PAuction.deps.json
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\bin\Debug\net7.0\P2PAuction.dll
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\bin\Debug\net7.0\P2PAuction.pdb
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\P2PAuction.dll
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\refint\P2PAuction.dll
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\P2PAuction.pdb
+C:\Dantte\Dev\Repos\Bitfinex\P2PAuction\P2PAuction\P2PAuction\obj\Debug\net7.0\ref\P2PAuction.dll

@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "P2PAuction.Node";
+
+package auction;
+
+// The Discovery service.
+service DiscoveryService {
+
+	rpc JoinNetwork (JoinNetworkRequest) returns (JoinNetworkResponse);
+
+	rpc UpdateNetwork (UpdateLocationRequest) returns (google.protobuf.Empty);
+}
+
+
+// Message
+message JoinNetworkRequest {
+	string NodeId = 1;
+	string Name = 2;
+	string Location = 3;
+}
+
+// Message
+message JoinNetworkResponse {
+
+	message NodeInfo {
+		string ID = 1;
+		string Name = 2;
+		string Location = 3;
+	}
+
+	repeated NodeInfo Nodes = 1;
+}
+
+// message
+message UpdateLocationRequest {
+	string NodeId = 1;
+	string Location = 2;
+}
+
+
+
+// The Auction Service
+service AuctionService {
+
+	rpc NotifyAuctionOpened (Auction) returns (google.protobuf.Empty);
+
+	rpc NotifyAuctionFinalized (AuctionFinalization) returns (google.protobuf.Empty);
+
+	rpc NotifyBidPlaced (Bid) returns (google.protobuf.Empty);
+}
+
+// Message
+message Auction {
+	string ID = 1;
+	string OwnerId = 2;
+	string ItemName = 3;
+	string Description = 4;
+	int64 OpeningPrice = 5;
+	int64 OpeningTime = 6;
+}
+
+// Message
+message AuctionFinalization {
+	string AuctionId = 1;
+	string ClosingBidId = 2;
+}
+
+// Message
+message Bid {
+	string ID = 1;
+	string OwnerId = 2;
+	string AuctionId = 3;
+	int64 BidAmount = 4;
+	int64 BidTime = 5;
+}
